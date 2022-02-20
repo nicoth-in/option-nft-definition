@@ -1,0 +1,72 @@
+
+
+.MintCard {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    max-width: 450px;
+    align-items: center;
+    align-self: center;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header {
+    text-align: center;
+    font-size: 36px;
+}
+
+.SmallInputField, .SelectedNFT, .BigButton {
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}
+
+.SelectedNFT {
+    color: rgba(0, 0, 0, 0.44);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.NftId {
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 12px;
+}
+
+.Selection {
+    background: white;
+    z-index: 100;
+    position: absolute;
+    top: 80px;
+    width: 450px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.SelectionGuide {
+    width: 100%;
+    position: relative;
+}
+
+.SelectionItem {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.BigButton {
+    height: 60px;
+    background: white;
+    cursor: pointer;
+}
